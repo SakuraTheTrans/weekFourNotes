@@ -27,6 +27,10 @@ public class Main {
         for (String city : arrL) {
             System.out.println(city);
         }
+        // OR
+        for (int i = 0; i < arrL.size(); i++) {
+            System.out.println(arrL.get(i));
+        }
         // Output :
         // Columbus
         // New York
